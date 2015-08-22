@@ -1,0 +1,33 @@
+.introduction {
+	text-align: right;
+}
+
+
+
+body {
+	background-color: powderblue;
+	margin: 0px;
+	border-right: 150px solid lightgray;
+	border-left: 150px solid lightgray;
+	border-top: 10px solid lightgray;
+	border-bottom: 10px solid lightgray;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+
+
+
+p, ul {
+	margin: 0;
+}
+
+ul, h3 {
+	margin-bottom: 18px;
+}
+
+
+h3, p {
+	margin: 0;
+}
+
