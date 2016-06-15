@@ -54,7 +54,10 @@ li {
 	margin-bottom: 14px;
 }
 
-.leftoversaver {
+.leftoversaver img {
 	width: 40%;
 	height: auto;
+}
+.leftoversaver p {
+	display: inline;
 }
