@@ -5,6 +5,10 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
 	margin: 0;
 }
 
+img {
+	max-width: 100%;
+}
+
 body {
 	background-color: powderblue;
 	margin: 0px;
@@ -48,4 +52,9 @@ li {
 
 .fmi p {
 	margin-bottom: 14px;
+}
+
+.leftoversaver {
+	width: 40%;
+	height: auto;
 }
