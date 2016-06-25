@@ -10,13 +10,16 @@ img {
 }
 
 body {
+	background-color: lightgray;
+	padding-left: 10%;
+	padding-top: 1%;
+	padding-right: 10%;
+	padding-bottom: 1%;
+}
+
+.container {
 	background-color: powderblue;
-	margin: 0px;
-	border-right: 150px solid lightgray;
-	border-left: 150px solid lightgray;
-	border-top: 10px solid lightgray;
-	border-bottom: 10px solid lightgray;
-	padding: 14px 14px 14px 14px;
+	padding: 1%;
 }
 
 header {
@@ -29,7 +32,7 @@ header p {
 	font-size: 18px;
 }
 
-li {
+/*li {
  	margin-left: 15px;
 }
 
@@ -37,27 +40,44 @@ li {
  	margin-bottom: 14px;
 }
 
-.experience {
+/*.experience {
 	margin-top: 7px;
 	margin-bottom: 7px;
 }
 
 .experience ul {
 	margin-bottom: 14px;
+}*/
+
+
+
+
+
+@media screen and (max-width:700px) {
+	.leftover {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 2px;
+	}
+	.leftoversaverImage {
+		width:100%;
+	}
+	.leftoversaverParagraph {
+		width:100%;
+	}
 }
 
-.rising p {
-	margin-bottom: 14px;
-}
-
-.fmi p {
-	margin-bottom: 14px;
-}
-
-.leftoversaver img {
-	width: 40%;
-	height: auto;
-}
-.leftoversaver p {
-	display: inline;
+@media screen and (min-width:701px) {
+	.leftoversaver {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 2px;
+	}
+	.leftoversaverImage {
+		width:50%;
+	}
+	.leftoversaverParagraph {
+		width:49%;
+		margin-left:1%;
+	}
 }
