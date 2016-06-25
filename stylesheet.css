@@ -54,30 +54,33 @@ header p {
 
 
 @media screen and (max-width:700px) {
-	.leftover {
+	.app {
 		display: flex;
 		flex-wrap: wrap;
 		margin: 2px;
 	}
-	.leftoversaverImage {
+	.image {
 		width:100%;
 	}
-	.leftoversaverParagraph {
+	.description {
 		width:100%;
 	}
 }
 
 @media screen and (min-width:701px) {
-	.leftoversaver {
+	.app {
 		display: flex;
 		flex-wrap: wrap;
 		margin: 2px;
 	}
-	.leftoversaverImage {
+	.image {
 		width:50%;
 	}
-	.leftoversaverParagraph {
+	.description {
 		width:49%;
 		margin-left:1%;
 	}
+}
+.regiscorporationreview {
+	border-bottom: 1px solid darkgrey;
 }
